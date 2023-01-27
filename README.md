@@ -1,3 +1,5 @@
+![Check pipeline](https://github.com/breucode/nextjs-strict-template/actions/workflows/check.yaml/badge.svg?branch=main)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with the following options:
 
 ```shell
