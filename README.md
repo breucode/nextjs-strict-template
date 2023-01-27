@@ -31,6 +31,14 @@ noFallthroughCasesInSwitch
 
 Additionally, a few custom rules were added to fit my code style and prevent conflicts.
 
+You can use [Lefthook](https://github.com/evilmartians/lefthook) to run all checks as a pre-commit hook.
+Just run `lefthook install` and you are good to go.
+
+Some additional scripts were added to make things a bit easier:
+`yarn formatCheck` checks the formatting of your files.
+`yarn formatFix` fixes the formatting of your files.
+`yarn export` runs the static html export for nextjs.
+
 ## Getting Started
 
 First, run the development server:
