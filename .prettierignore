@@ -1,0 +1,5 @@
+.next/
+public/sw.js
+public/workbox*.js
+public/sw.js.map
+out/
