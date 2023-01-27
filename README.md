@@ -10,7 +10,7 @@ This is a [Next.js](https://nextjs.org/) template bootstrapped with [`create-nex
 
 Some plugins were added to force a consistent and strict code style.
 
-[Prettier](https://prettier.io/) is used for formattig.
+[Prettier](https://prettier.io/) is used for formatting.
 
 The following plugins and rulesets for eslint:
 
