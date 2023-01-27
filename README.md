@@ -8,7 +8,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Some plugins were added to force a consistent and strict code style.
 
-[Prettier](https://prettier.io/) for formatting
+[Prettier](https://prettier.io/) is used for formattig.
+
 The following plugins and rulesets for eslint:
 
 - [unicorn/recommended](https://github.com/sindresorhus/eslint-plugin-unicorn)
@@ -35,8 +36,11 @@ You can use [Lefthook](https://github.com/evilmartians/lefthook) to run all chec
 Just run `lefthook install` and you are good to go.
 
 Some additional scripts were added to make things a bit easier:
+
 `yarn formatCheck` checks the formatting of your files.
+
 `yarn formatFix` fixes the formatting of your files.
+
 `yarn export` runs the static html export for nextjs.
 
 ## Getting Started
