@@ -33,12 +33,7 @@ module.exports = {
     "no-restricted-globals": ["error", ...confusingBrowserGlobals],
     // Handled by typescript compiler options noUnusedLocals and noUnusedParameters
     "no-unused-vars": ["off"],
-    "react/jsx-no-useless-fragment": [
-      "error",
-      {
-        allowExpressions: true,
-      },
-    ],
+    "react/jsx-curly-brace-presence": ["error"],
     "no-restricted-imports": [
       "error",
       {
