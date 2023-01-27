@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "formatCheck": "prettier --ignore-path .gitignore --check .",
+    "formatFix": "prettier --ignore-path .gitignore --check ."
   },
   "dependencies": {
     "@next/font": "13.1.5",

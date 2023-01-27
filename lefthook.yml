@@ -9,6 +9,6 @@ pre-commit:
     eslint:
       run: yarn lint --max-warnings 0
     formatting:
-      run: yarn prettier --check .
+      run: yarn formatCheck
     build:
       run: yarn build
