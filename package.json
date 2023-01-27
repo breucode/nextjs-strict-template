@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "formatCheck": "prettier --ignore-path .gitignore --check .",
-    "formatFix": "prettier --ignore-path .gitignore --check ."
+    "formatFix": "prettier --ignore-path .gitignore --write ."
   },
   "dependencies": {
     "@next/font": "13.1.5",

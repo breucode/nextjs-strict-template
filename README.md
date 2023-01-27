@@ -1,4 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with the following options:
+
+```shell
+--typescript
+--eslint
+--src-dir
+```
+
+Some plugins were added to force a consistent and strict code style.
+
+[Prettier](https://prettier.io/) for formatting
+The following plugins and rulesets for eslint:
+
+- [unicorn/recommended](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- [eslint:recommended](https://github.com/eslint/eslint/blob/main/conf/eslint-recommended.js)
+- [promise/recommended](https://github.com/eslint-community/eslint-plugin-promise)
+- [security/recommended](https://github.com/eslint-community/eslint-plugin-security)
+- [eslint-comments/recommended](https://github.com/eslint-community/eslint-plugin-eslint-comments)
+- [typescript-eslint/strict](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/strict.ts)
+- [react/recommended](https://github.com/jsx-eslint/eslint-plugin-react)
+- [react-hooks/recommended](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
+- [confusingBrowserGlobals](https://github.com/facebook/create-react-app/tree/main/packages/confusing-browser-globals)
+
+The following compiler options for typescript were added:
+
+```shell
+noUnusedLocals
+noUnusedParameters
+noFallthroughCasesInSwitch
+```
+
+Additionally, a few custom rules were added to fit my code style and prevent conflicts.
 
 ## Getting Started
 
