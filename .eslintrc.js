@@ -52,7 +52,7 @@ module.exports = {
         paths: [
           {
             name: "@tabler/icons",
-            message: "Use @tabler/icons instead.",
+            message: "Use @tabler/icons-react instead.",
           },
         ],
       },
