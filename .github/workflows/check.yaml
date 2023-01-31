@@ -20,6 +20,6 @@ jobs:
       - name: Lint
         run: yarn lint --max-warnings 0
       - name: Formatting
-        run: yarn prettier --check .
+        run: yarn formatCheck
       - name: Build
         run: yarn build
