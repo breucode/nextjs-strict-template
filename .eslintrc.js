@@ -11,7 +11,6 @@ module.exports = {
     "plugin:@typescript-eslint/strict",
     "plugin:functional/external-typescript-recommended",
     "plugin:functional/stylistic",
-    "plugin:functional/no-other-paradigms",
     "plugin:functional/no-exceptions",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
@@ -67,6 +66,22 @@ module.exports = {
     // Disabled, because it forbids conditions on array access
     "@typescript-eslint/no-unnecessary-condition": ["off"],
     // Makes concatenating arrays unreadable
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        checksVoidReturn: {
+          arguments: false,
+          attributes: false,
+        },
+      },
+    ],
+    "@typescript-eslint/restrict-template-expressions": [
+      "error",
+      {
+        allowNumber: true,
+        allowNullish: true,
+      },
+    ],
     "unicorn/prefer-spread": ["off"],
     "unicorn/filename-case": [
       "error",
@@ -74,6 +89,8 @@ module.exports = {
         case: "camelCase",
       },
     ],
+    // clashes with functional/prefer-tacit
+    "unicorn/no-array-callback-reference": ["off"],
   },
   overrides: [
     {

@@ -8,8 +8,8 @@
     "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "formatCheck": "prettier --check .",
-    "formatFix": "prettier --write ."
+    "formatCheck": "prettier --ignore-path .gitignore --check .",
+    "formatFix": "prettier --ignore-path .gitignore --write ."
   },
   "dependencies": {
     "@next/font": "13.1.6",
