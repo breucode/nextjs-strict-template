@@ -34,6 +34,7 @@ The following compiler options for typescript were added:
 noUnusedLocals
 noUnusedParameters
 noFallthroughCasesInSwitch
+noUncheckedIndexedAccess
 ```
 
 Additionally, a few custom rules were added to fit my code style and prevent conflicts.
