@@ -82,6 +82,8 @@ module.exports = {
         allowNullish: true,
       },
     ],
+    // mostly covered by other rules and compiler options
+    "security/detect-object-injection": ["off"],
     "unicorn/prefer-spread": ["off"],
     "unicorn/filename-case": [
       "error",
