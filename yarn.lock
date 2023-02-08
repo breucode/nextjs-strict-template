@@ -439,6 +439,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/type-utils@npm:^5.51.0":
+  version: 5.51.0
+  resolution: "@typescript-eslint/type-utils@npm:5.51.0"
+  dependencies:
+    "@typescript-eslint/typescript-estree": 5.51.0
+    "@typescript-eslint/utils": 5.51.0
+    debug: ^4.3.4
+    tsutils: ^3.21.0
+  peerDependencies:
+    eslint: "*"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: ab9747b0c629cfaaab903eed8ce1e39d34d69a402ce5faf2f1fff2bbb461bdbe034044b1368ba67ba8e5c1c512172e07d83c8a563635d8de811bf148d95c7dec
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/types@npm:5.49.0":
   version: 5.49.0
   resolution: "@typescript-eslint/types@npm:5.49.0"
@@ -532,7 +549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^5.51.0":
+"@typescript-eslint/utils@npm:5.51.0, @typescript-eslint/utils@npm:^5.51.0":
   version: 5.51.0
   resolution: "@typescript-eslint/utils@npm:5.51.0"
   dependencies:
@@ -2557,7 +2574,7 @@ __metadata:
     "@types/react-dom": 18.0.10
     "@typescript-eslint/eslint-plugin": ^5.50.0
     "@typescript-eslint/parser": ^5.51.0
-    "@typescript-eslint/type-utils": ^5.50.0
+    "@typescript-eslint/type-utils": ^5.51.0
     "@typescript-eslint/utils": ^5.51.0
     confusing-browser-globals: ^1.0.11
     eslint: 8.33.0
