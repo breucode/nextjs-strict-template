@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "formatCheck": "prettier --ignore-path .gitignore --check .",
-    "formatFix": "prettier --ignore-path .gitignore --write ."
+    "formatFix": "prettier --ignore-path .gitignore --write .",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@next/font": "13.2.4",
@@ -24,6 +25,7 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
+    "@playwright/test": "^1.31.2",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "@typescript-eslint/type-utils": "^5.55.0",
