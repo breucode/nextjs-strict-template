@@ -75,6 +75,12 @@ module.exports = {
         },
       },
     ],
+    "@typescript-eslint/no-floating-promises": [
+      "error",
+      {
+        ignoreVoid: true,
+      },
+    ],
     "@typescript-eslint/restrict-template-expressions": [
       "error",
       {
