@@ -40,7 +40,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-unicorn": "^46.0.0",
-    "prettier": "2.8.5"
+    "prettier": "2.8.6"
   },
   "packageManager": "yarn@3.5.0"
 }
