@@ -491,7 +491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:6.9.0":
+"@typescript-eslint/type-utils@npm:6.9.0, @typescript-eslint/type-utils@npm:^6.0.0":
   version: 6.9.0
   resolution: "@typescript-eslint/type-utils@npm:6.9.0"
   dependencies:
@@ -505,23 +505,6 @@ __metadata:
     typescript:
       optional: true
   checksum: b435914bfce1ef3335a511fe4bb22c178090175997e39569db174e39ffc2b02eb62112ddfe093ef70509e429219dd373a31dba4b5cb899de38583f7c80353201
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/type-utils@npm:^6.0.0":
-  version: 6.2.0
-  resolution: "@typescript-eslint/type-utils@npm:6.2.0"
-  dependencies:
-    "@typescript-eslint/typescript-estree": "npm:6.2.0"
-    "@typescript-eslint/utils": "npm:6.2.0"
-    debug: "npm:^4.3.4"
-    ts-api-utils: "npm:^1.0.1"
-  peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 13a60c820bc9402989d7ff0bb1fad2ed963517995bb932d7c37208abfe486b97e15dc30ae12b612fde10445f07664818a4447331a7a21c00aa57f8826091348c
   languageName: node
   linkType: hard
 
@@ -600,23 +583,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:6.2.0, @typescript-eslint/utils@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@typescript-eslint/utils@npm:6.2.0"
-  dependencies:
-    "@eslint-community/eslint-utils": "npm:^4.4.0"
-    "@types/json-schema": "npm:^7.0.12"
-    "@types/semver": "npm:^7.5.0"
-    "@typescript-eslint/scope-manager": "npm:6.2.0"
-    "@typescript-eslint/types": "npm:6.2.0"
-    "@typescript-eslint/typescript-estree": "npm:6.2.0"
-    semver: "npm:^7.5.4"
-  peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0
-  checksum: e688d5ce5ce6abc2fb98b2c5624e24f9c54dff272a48c51b2ea593595246b68275e4c20e8f7caca60a4c6b73776c3497a5d0841736f80a78a9dd38ca2bf459dc
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/utils@npm:6.9.0, @typescript-eslint/utils@npm:^6.0.0":
   version: 6.9.0
   resolution: "@typescript-eslint/utils@npm:6.9.0"
@@ -631,6 +597,23 @@ __metadata:
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
   checksum: 4937c9ad754681b4f0591eb5be3caa34b2df6c07845f16292120b03755453c4c19f1c34710f6f9eb138d509ec554575b899b44b33e263536d9d43f5b1fbe2208
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/utils@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@typescript-eslint/utils@npm:6.2.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.4.0"
+    "@types/json-schema": "npm:^7.0.12"
+    "@types/semver": "npm:^7.5.0"
+    "@typescript-eslint/scope-manager": "npm:6.2.0"
+    "@typescript-eslint/types": "npm:6.2.0"
+    "@typescript-eslint/typescript-estree": "npm:6.2.0"
+    semver: "npm:^7.5.4"
+  peerDependencies:
+    eslint: ^7.0.0 || ^8.0.0
+  checksum: e688d5ce5ce6abc2fb98b2c5624e24f9c54dff272a48c51b2ea593595246b68275e4c20e8f7caca60a4c6b73776c3497a5d0841736f80a78a9dd38ca2bf459dc
   languageName: node
   linkType: hard
 
