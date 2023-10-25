@@ -10,7 +10,7 @@ export default function handler(
   // eslint-disable-next-line unicorn/prevent-abbreviations
   req: NextApiRequest,
   // eslint-disable-next-line unicorn/prevent-abbreviations
-  res: NextApiResponse<Data>
+  res: NextApiResponse<Data>,
 ) {
   res.status(200).json({ name: "John Doe" })
 }

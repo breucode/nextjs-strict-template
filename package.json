@@ -8,8 +8,8 @@
     "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "formatCheck": "prettier --ignore-path .gitignore --check .",
-    "formatFix": "prettier --ignore-path .gitignore --write .",
+    "formatCheck": "prettier --check .",
+    "formatFix": "prettier --write .",
     "test:e2e": "playwright test"
   },
   "dependencies": {
