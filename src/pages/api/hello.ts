@@ -6,7 +6,7 @@ type Data = {
 }
 
 export default function handler(
-  // @ts-expect-error
+  // @ts-expect-error Expect not fixed, otherwise generated code must be changed
   // eslint-disable-next-line unicorn/prevent-abbreviations
   req: NextApiRequest,
   // eslint-disable-next-line unicorn/prevent-abbreviations
