@@ -13,7 +13,6 @@ module.exports = {
     "plugin:functional/stylistic",
     "plugin:functional/no-exceptions",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
     "next/core-web-vitals",
     "prettier",
   ],
@@ -21,7 +20,6 @@ module.exports = {
   plugins: [
     "promise",
     "react",
-    "react-hooks",
     "@typescript-eslint",
     "unicorn",
     "functional",

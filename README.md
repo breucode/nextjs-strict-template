@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org/) template bootstrapped with [`create-nex
 --typescript
 --eslint
 --src-dir
+--app
 ```
 
 Some plugins were added to force a consistent and strict code style.
@@ -25,7 +26,6 @@ The following plugins and rulesets for eslint:
 - [plugin:functional/stylistic](https://github.com/eslint-functional/eslint-plugin-functional)
 - [plugin:functional/no-exceptions](https://github.com/eslint-functional/eslint-plugin-functional)
 - [react/recommended](https://github.com/jsx-eslint/eslint-plugin-react)
-- [react-hooks/recommended](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
 - [confusingBrowserGlobals](https://github.com/facebook/create-react-app/tree/main/packages/confusing-browser-globals)
 
 The following compiler options for typescript were added:
