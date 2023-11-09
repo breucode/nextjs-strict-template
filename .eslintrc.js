@@ -17,13 +17,7 @@ module.exports = {
     "prettier",
   ],
   parser: "@typescript-eslint/parser",
-  plugins: [
-    "promise",
-    "react",
-    "@typescript-eslint",
-    "unicorn",
-    "functional",
-  ],
+  plugins: ["promise", "react", "@typescript-eslint", "unicorn", "functional"],
   parserOptions: {
     // enables the use of `import { a } from b` syntax. required for TypeScript imports
     sourceType: "module",
