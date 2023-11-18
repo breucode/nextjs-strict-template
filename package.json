@@ -26,7 +26,7 @@
     "@typescript-eslint/type-utils": "^6.0.0",
     "@typescript-eslint/utils": "^6.0.0",
     "confusing-browser-globals": "^1.0.11",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "eslint-config-next": "14.0.3",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-typescript": "^3.5.3",
