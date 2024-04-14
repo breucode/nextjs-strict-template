@@ -1628,8 +1628,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-functional@npm:^6.0.0":
-  version: 6.4.0
-  resolution: "eslint-plugin-functional@npm:6.4.0"
+  version: 6.4.1
+  resolution: "eslint-plugin-functional@npm:6.4.1"
   dependencies:
     "@typescript-eslint/utils": "npm:^7.3.1"
     deepmerge-ts: "npm:^5.1.0"
@@ -1643,7 +1643,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/8fce971de6b0e8a0c7ed955e2d40a99f8653bf1b956e153956fa967a4762f49755148b04722432025fddd63ac9544267a4d57eaaa62d4270b9bbb7dc19d1e6d5
+  checksum: 10/7be88e68d32024c05de427079a36fc164088b2da30fabfc724a5ab2f7cfd3284f94e491a2eaf13de29e871a773583253ccbb9a468c8620aae2b2672da5fec391
   languageName: node
   linkType: hard
 
