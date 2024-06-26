@@ -1870,12 +1870,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-security@npm:^1.7.1":
-  version: 1.7.1
-  resolution: "eslint-plugin-security@npm:1.7.1"
+"eslint-plugin-security@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "eslint-plugin-security@npm:3.0.1"
   dependencies:
     safe-regex: "npm:^2.1.1"
-  checksum: 10/6c89bd634548e640a4ce21dadea61ce31433a9099798c7c099c5d145c67a48f77e82150554a72d773f8fcefe9d85df25e9ed85287ce8736b8e33cf4f3f93332b
+  checksum: 10/5a7eb9a9d499addad93e9a650f503b2bdc23e8ab8222a0330e216726ffcc0e154405d23c8c523ff987e894cb9c8358da883c1dd22e21423e4368cd13de14930c
   languageName: node
   linkType: hard
 
@@ -3439,7 +3439,7 @@ __metadata:
     eslint-plugin-import: "npm:^2.27.5"
     eslint-plugin-promise: "npm:^6.1.1"
     eslint-plugin-react: "npm:^7.32.2"
-    eslint-plugin-security: "npm:^1.7.1"
+    eslint-plugin-security: "npm:^3.0.0"
     eslint-plugin-unicorn: "npm:^54.0.0"
     next: "npm:14.2.4"
     prettier: "npm:3.3.2"
