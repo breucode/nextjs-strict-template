@@ -5,7 +5,7 @@ module.exports = {
     "plugin:unicorn/recommended",
     "eslint:recommended",
     "plugin:promise/recommended",
-    "plugin:security/recommended",
+    "plugin:security/recommended-legacy",
     "plugin:eslint-comments/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:@typescript-eslint/strict",
